@@ -14,7 +14,6 @@ ROTATION_INDIVIDUAL=3
 f_0 = 3.08e-6
 min_distance = 100
 lammda=2600
-#maxCores=1024
 maxCores=9999999
 
 class Const(object):
