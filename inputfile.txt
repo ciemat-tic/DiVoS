@@ -1,0 +1,38 @@
+[default]
+maxX = 400
+maxY = 600
+multiplicity = 3
+vortices = 3
+population = 3
+geometry=triangle
+
+anclajesInfluence = True
+totallyRandomInicialization = False
+
+executionMode=batch
+
+
+[bessel]
+lammda=2600
+
+[genetic]
+generations = 3
+CROSSOVER_PROBABILITY = 0.5
+MUTATION_PROBABILITY = 0.5
+ROTATION_PROBABILITY = .5
+fractionOfOldElementsKept=0.5
+minIndividualLife=1
+
+[annealing]
+temperature=25000
+epoch=1
+length=1
+
+[basin]
+temperature = 1
+length = 1
+
+[choice]
+recocido = True
+genetico = True
+voraz = True
